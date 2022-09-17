@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex,nofollow" />
+    <title>Wenecja - Opinia</title>
+
+    <link rel="stylesheet" href="style_opinia.css" type="text/css" media="(min-width: 1000px)">
+    <link rel="stylesheet" href="style_opinia_mob.css" type="text/css" media="(max-width: 1000px)">
+
+    <link rel="icon" type="image/icon" href="source/logo_123.ico">
+</head>
+<body>
+
+    <div id="title">
+        <img src="source/opinia.png" width="100%" alt="Opinia Wenecji">
+    </div>
+
+
+
+    <div id="main">
+            <h4>Prześlij swoją opinię o pobycie w Wenecji</h4>
+
+            <form id="form" action="">
+                <div style="text-align:right; width:100%;"><input type="reset" value="Wyczyść"></div>
+
+                <label for="imie">Imię:</label>
+                <input type="text" id="imie" name="imie" placeholder="Twoje imię....">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Twój email...">
+
+                <label for="data">Kiedy byłeś w Wenecji:</label>
+                <input type="date" id="data" name="data">
+
+                <label for="ocena">Ocena pobytu:</label><br>
+                <label for="ocena" id="emoji">🤔</label>
+	            <input type="range" min="0" max="10" step="1" id="ocena" name="ocena">
+
+                <br>
+                <label for="opinia">Opinia:</label>
+                <textarea name="opinia" id="opinia" form="form" rows="10" placeholder="Napisz opinię o pobycie w Wenecji..."></textarea>
+
+
+                <label for="img">Dołącz zdjecia z pobytu:</label>
+                <input type="file" id="img" name="img" accept="image/*" multiple>
+            
+                
+                <input type="submit" value="Wyślij">
+            </form>
+    </div>
+
+
+
+    <div id="footer">
+        <p>Copyright ©  Wenecja | Kacper Drobik</p>
+    </div>
+
+
+    <div id="logo">
+        <img src="source/logo.png" width="100%" alt="Venice">
+    </div>
+
+
+    <div id="back">
+        <a href="index.html" data-title="Powrót do strony głównej"><img src="source/arrow_back.gif" width="100%" alt="Powrót do strony głównej"></a>
+    </div>
+
+
+    <script defer>
+        var emojis = ['😠','🥴','😦','🙁','😒','😑','🙂','😀','😚','🤩','😍'];
+
+        document.querySelector("input[type=range]").addEventListener("mousemove", function(){
+            var i = document.querySelector("input[type=range]").value;
+            document.getElementById("emoji").innerText = (emojis[i]);
+        });
+
+        document.querySelector("input[type=reset]").addEventListener("click", function(){
+            document.getElementById("emoji").innerText = ('🤔');
+        });
+    </script>
+
+</body>
+</html>
