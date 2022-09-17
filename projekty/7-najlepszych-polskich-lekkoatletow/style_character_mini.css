@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+  font-family: 'Noto Sans';
+  font-display: swap;
+}
+
+
+body{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20vh;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10vh;
+    color: white;
+    font-size: 3.5vw;
+}
+
+img{
+    position: relative;
+    width: 20vw;
+    left: 72vw;
+    margin-top: -5vw;
+}
+
+h3{
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 5%;
+    color: #fff4e1;
+    font-size: 1.7vw;
+}
+
+h2{
+    text-align: center;
+    margin-right: 10vw;
+    font-size: 2vw;
+    margin-top: 15%;
+    color: aliceblue;
+    margin-bottom: 5%;
+    text-decoration: underline;
+}
+
+table, td, th {
+    border: 2px solid white;
+}
+  
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: 10%;
+    color: white;
+}
+
+td{
+    padding: 2.5%;
+    font-size: 1.1vw;
+}
+
+#main_td{
+    text-align: center;
+    color: white;
+    margin-top: 4vw;
+    font-size: 1.5vw;
+}
+
+#zloto{
+    background-color: rgb(251, 219, 36);
+}
+#srebro{
+    background-color:  #C0C0C0;
+}
+#braz{
+    background-color: #CD7F32;
+}
+
+
+
+
+.topnav {
+    margin-top: 10%;
+    width: 80%;
+    margin-left: 10%;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.topnav a {
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
