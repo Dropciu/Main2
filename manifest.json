@@ -1,0 +1,14 @@
+{
+    "theme_color" : "#F64C72",
+    "background_color" : "#2F2FA2",
+    "display" : "browser",
+    "start_url" : "https://drobik.site/",
+    "short_name" : "Kacper Drobik",
+    "name" : "Kacper Drobik- programista & chodziarz",
+    "description" : "Kacper Drobik- programista & chodziarz. Wielokrotny medalista Mistrzostw Polski. Utalentowany lekkoatleta. Twórca wielu aplikacji oraz gier internetowych. Uczeń najlepszej szkoły w Polsce. Finalista wielu konkursów i olimpiad.",
+    "icons": [
+        {
+          "src": "https://drobik.site/source/favicon.ico"
+        }
+      ]
+}

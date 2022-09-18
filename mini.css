@@ -663,3 +663,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3){
     font-size: 1.6vw;
     text-align: center;
 }
+
+#invisible_div{
+    display: none;
+}

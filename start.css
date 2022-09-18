@@ -11,7 +11,7 @@ body{
     color: white;
     cursor: progress;
 }
-#loading_layer h1{
+#loading_layer h2{
     margin-top: 15%;
     font-size: 4vw;
 }
@@ -31,7 +31,7 @@ body{
 
 
 @media screen and (max-width: 1024px) and (min-width: 480px){
-    #loading_layer h1{
+    #loading_layer h2{
         margin-top: 30%;
         font-size: 5vw;
     }
@@ -43,7 +43,7 @@ body{
     }
 }
 @media screen and (max-width: 480px){
-    #loading_layer h1{
+    #loading_layer h2{
         margin-top: 60%;
         font-size: 6vw;
     }
