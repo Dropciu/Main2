@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://drobik.site/</loc>
+  <lastmod>2022-09-17T07:39:11+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://drobik.site/projekty/7-najlepszych-polskich-lekkoatletow/</loc>
+  <lastmod>2022-09-17T07:39:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://drobik.site/projekty/Wenecja/</loc>
+  <lastmod>2022-09-17T07:39:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://drobik.site/projekty/Wenecja/galeria.html</loc>
+  <lastmod>2022-09-17T07:39:11+00:00</lastmod>
+  <priority>0.44</priority>
+</url>
+<url>
+  <loc>https://drobik.site/projekty/Wenecja/mapa.html</loc>
+  <lastmod>2022-09-17T07:39:11+00:00</lastmod>
+  <priority>0.44</priority>
+</url>
+<url>
+  <loc>https://drobik.site/projekty/Wenecja/atrakcje.html</loc>
+  <lastmod>2022-09-17T07:39:11+00:00</lastmod>
+  <priority>0.44</priority>
+</url>
+<url>
+  <loc>https://drobik.site/projekty/Wenecja/historia.html</loc>
+  <lastmod>2022-09-17T07:39:11+00:00</lastmod>
+  <priority>0.44</priority>
+</url>
+<url>
+  <loc>https://drobik.site/projekty/Wenecja/ciekawostki.html</loc>
+  <lastmod>2022-09-17T07:39:11+00:00</lastmod>
+  <priority>0.44</priority>
+</url>
+<url>
+  <loc>https://drobik.site/projekty/Wenecja/przewodnik.html</loc>
+  <lastmod>2022-09-17T07:39:11+00:00</lastmod>
+  <priority>0.44</priority>
+</url>
+<url>
+  <loc>https://drobik.site/projekty/Wenecja/index.html</loc>
+  <lastmod>2022-09-17T07:39:11+00:00</lastmod>
+  <priority>0.31</priority>
+</url>
+
+
+</urlset>
