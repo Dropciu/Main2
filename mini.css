@@ -133,9 +133,9 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3){
     text-align: center;
 }
 #menu-items li{
-    line-height: 16vh;
+    line-height: 10vh;
 }
-#menu-items a{
+#menu-items p{
     cursor: pointer;
 }
 #blurry-background{
@@ -279,10 +279,10 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3){
     color: black;
     font-size: 5.4vw;
 }
-#section_1_desc h1:nth-of-type(1){
+#section_1_desc h2:nth-of-type(1){
     text-align: left;
 }
-#section_1_desc h1:nth-of-type(2){
+#section_1_desc h2:nth-of-type(2){
     text-align: right;
 }
 #section_1_desc p{
@@ -497,7 +497,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3){
 .c fieldset{
     width: 60%;
     margin-left: 20%;
-    margin-top: 13%;
+    margin-top: 10%;
     border: white dotted 0.3vw;
     padding: 1.5% 0 1.5% 0;
 }
@@ -533,7 +533,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3){
 .c #ul{
     width: 80%;
     margin-left: 10%;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 .c ul{
     color: white;

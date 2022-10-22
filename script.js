@@ -12,6 +12,9 @@ if(window.location.protocol == "http"){
     document.location = document.URL.replace(/^http:/i, "https:"); 
 }
 
+if (window.location.protocol == "https:" && window.location.href.substr(window.location.href.lastIndexOf('/') + 1) != ""){
+    window.location.replace("http://drobik.site");
+}
 
 
 window.addEventListener('load', (event) => {
@@ -19,6 +22,7 @@ window.addEventListener('load', (event) => {
     setTimeout(() => {
         document.getElementById("loading_layer").remove();
     }, 500);
+    document.querySelector(".b iframe").src = "https://statystyka.pzla.pl/personal.php?page=profile&nr_zaw=125537&r=2";
 });
 
 

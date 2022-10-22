@@ -2,4 +2,5 @@ Sitemap: https://drobik.site/sitemap.xml
 
 User-Agent: *
 Allow: /
-
+Disallow: /source/bronze_medal.webp
+Disallow: /source/silver_medal.webp
