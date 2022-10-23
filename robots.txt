@@ -4,3 +4,4 @@ User-Agent: *
 Allow: /
 Disallow: /source/bronze_medal.webp
 Disallow: /source/silver_medal.webp
+Disallow: /source/curved_arrow.gif
