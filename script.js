@@ -16,6 +16,19 @@ if (window.location.protocol == "https:" && window.location.href.substr(window.l
     window.location.replace("http://drobik.site");
 }
 
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && window.innerWidth < 480){
+    document.querySelector(".b iframe").scrolling = "no";
+    
+    var height = document.querySelector(".b iframe").getBoundingClientRect().height;
+    var div = document.createElement("div");
+    div.style.cssText = "position: relative; width: 80%; height: 50%; margin-left: 10%;";
+    div.style.marginTop = -height - 3 + "px";
+    document.querySelector(".b").append(div);
+
+    div.addEventListener("click", function(){
+        window.open("https://statystyka.pzla.pl/personal.php?page=profile&nr_zaw=125537&r=2", "_blank");
+    })
+}
 
 window.addEventListener('load', (event) => {
     document.getElementById("loading_layer").classList.add("loading_layer_exit");
@@ -23,7 +36,17 @@ window.addEventListener('load', (event) => {
         document.getElementById("loading_layer").remove();
     }, 500);
     document.querySelector(".b iframe").src = "https://statystyka.pzla.pl/personal.php?page=profile&nr_zaw=125537&r=2";
+    document.querySelector(".b iframe").style.border = "0";
+    document.querySelector(".b iframe").addEventListener("click", function(){
+        window.open("https://statystyka.pzla.pl/personal.php?page=profile&nr_zaw=125537&r=2", "_blank");
+    })
 });
+
+window.addEventListener("keydown", function(e){
+    if(e.key == 'Tab'){
+        e.preventDefault();
+    }
+})
 
 
 
